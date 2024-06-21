@@ -11,7 +11,6 @@ This project focuses on detecting anomalies in network traffic data using autoen
 - [Evaluation](#evaluation)
 - [Visualizations](#visualizations)
 - [Results](#results)
-- [Usage](#usage)
 - [Conclusion](#conclusion)
 
 ## Introduction
@@ -85,37 +84,22 @@ confusion_matrix(recons_df['y_true'], recons_df['y_pred'])
 Various visualizations are created to understand the model's performance and error distribution.
 
 - **Training and Validation Loss**:
-  ![Loss by Epoch](loss_by_epoch.png)
+  ![Loss by Epoch]
 
 - **Error Distribution**:
-  ![Error Distribution](error_distribution.png)
+  ![Error Distribution]
 
 - **Confusion Matrix**:
-  ![Confusion Matrix](confusion_matrix.png)
+  ![Confusion Matrix]
 
 ## Results
 
 The autoencoder model demonstrates a strong capability to identify anomalies in network traffic with high recall and accuracy.
 
-- **Recall Score**: `xx.x%`
-- **Accuracy Score**: `xx.x%`
+- **Recall Score**: `81.341%`
+- **Accuracy Score**: `90.058%`
 
-## Usage
 
-To use the model for anomaly detection:
-
-1. Clone the repository.
-2. Ensure all dependencies are installed.
-3. Run the data cleaning and preprocessing steps.
-4. Train the autoencoder model.
-5. Evaluate the model on test data.
-
-```bash
-git clone <repository_url>
-cd <repository_folder>
-pip install -r requirements.txt
-python anomaly_detection.py
-```
 
 ## Conclusion
 
@@ -123,4 +107,3 @@ This project successfully demonstrates the use of autoencoders for anomaly detec
 
 ---
 
-Feel free to reach out for any questions or contributions.
