@@ -1,6 +1,5 @@
 # Network-intrusion-Detection-using-Autoencoders
 
-# Anomaly Detection in Network Traffic Using Autoencoders
 
 This project focuses on detecting anomalies in network traffic data using autoencoders. By leveraging deep learning techniques, the model aims to accurately identify unusual patterns that may indicate security threats or other issues.
 
